@@ -1,3 +1,23 @@
+
+Под капотом тот же реакт:
+Достоинства:
+1. Скорость (быстрее чем на обычном реакт) (подгрузка данных на сервере)
+2. SEO Оптимизация
+
+Установка: 
+1. npx create-next-app@latest
+2. название проекта 
+3. TypeScript: Yes
+4. ESLint: No (Это для работы в команде)
+5. Tailwind CSS: No (так как в этом проекте не буду использовать)
+6. `src/` directory: Yes (Будет основной папкой)
+7. App Router (recommended): Yes
+8. import alias: Yes (сокращает пути ../../../app/app.ts заменяем @/app.app.ts)
+9. import alias: @/* 
+10. Заходим в нужную папку: cd папка
+11. npm run dev (Запуск в режиме разработки)
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
