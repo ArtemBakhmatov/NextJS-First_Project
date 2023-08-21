@@ -6,7 +6,7 @@ export const metadata: Metadata = {  // для сео оптимизации
 }
 
 async function getData() {
-    const response = await fetch('https://jsonplaceholder.typicode.com/postsww', {
+    const response = await fetch('https://jsonplaceholder.typicode.com/posts', {
         next: {         // этот объект для кэширования 
             revalidate: 60 // промежуток времени (60 секунд)
         }
